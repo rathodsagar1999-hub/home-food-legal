@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HOME FOOD — Legal & Compliance Portal</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .portal-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      margin-top: 1.5rem;
+    }
+    .portal-card {
+      background: white;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1.5rem;
+      text-decoration: none;
+      color: inherit;
+      transition: transform 0.2s, box-shadow 0.2s;
+      display: flex;
+      flex-direction: column;
+    }
+    .portal-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+      border-color: var(--primary);
+    }
+    .portal-card h3 {
+      color: var(--primary);
+      margin-bottom: 0.5rem;
+    }
+    .portal-card p {
+      color: var(--text-muted);
+      font-size: 0.9rem;
+      flex-grow: 1;
+    }
+    .portal-card span {
+      color: var(--primary-dark);
+      font-weight: 600;
+      font-size: 0.85rem;
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>HOME FOOD</h1>
+  <p>Authentic Regional Home-Cooked Food Marketplace</p>
+</header>
+
+<nav class="policy-nav">
+  <a href="index.html" class="active">Overview</a>
+  <a href="privacy.html">Privacy Policy</a>
+  <a href="terms.html">Terms & Conditions</a>
+  <a href="refund.html">Refund & Cancellation</a>
+  <a href="grievance.html">Grievance Redressal</a>
+</nav>
+
+<main class="container">
+  <div class="card">
+    <h1>Legal, Regulatory & Public Policy Documentation</h1>
+    <p>
+      Welcome to the official legal and customer transparency center for <strong>HOME FOOD</strong>. 
+      All operations adhere strictly to the Information Technology Act 2000, Digital Personal Data Protection Act 2023, 
+      Consumer Protection (E-Commerce) Rules 2020, and Google Play Store Developer Guidelines.
+    </p>
+
+    <div class="portal-grid">
+      <a href="privacy.html" class="portal-card">
+        <h3>🔒 Privacy Policy</h3>
+        <p>Details data collection, location permissions (foreground only), payment tokenization via Razorpay, and user erasure rights under the DPDP Act 2023.</p>
+        <span>View Privacy Policy &rarr;</span>
+      </a>
+
+      <a href="terms.html" class="portal-card">
+        <h3>📜 Terms & Conditions</h3>
+        <p>Platform marketplace intermediary terms, FSSAI hygiene guidelines for home cooks, and transparent commission structure.</p>
+        <span>View Terms & Conditions &rarr;</span>
+      </a>
+
+      <a href="refund.html" class="portal-card">
+        <h3>🔄 Refund & Cancellation</h3>
+        <p>Pre-acceptance free cancellation, cooking-started no-cancellation rule, food quality dispute handling, and 5-7 day bank refund timelines.</p>
+        <span>View Refund Policy &rarr;</span>
+      </a>
+
+      <a href="grievance.html" class="portal-card">
+        <h3>⚖️ Grievance Redressal</h3>
+        <p>Statutory Nodal Grievance Officer details, 48-hour complaint acknowledgment, and 30-day statutory dispute resolution.</p>
+        <span>View Grievance Officer &rarr;</span>
+      </a>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <p>&copy; 2026 HOME FOOD. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
